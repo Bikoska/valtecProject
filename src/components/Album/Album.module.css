@@ -1,0 +1,64 @@
+.album {
+    display: flex;
+    flex-wrap: wrap;
+   }
+   
+  .albums-conatiner {
+        max-width: 800px;
+        margin: 0 auto;
+        justify-content: space-between;
+        margin-top: 50px;
+
+        border: 1px solid;
+       
+        overflow: hidden;
+        display: flex;
+      
+
+
+  }
+
+  .btnDelete {
+    
+    width: 100%;
+    padding: 0px;
+    text-align: center;
+    color:transparent;
+    background-color: transparent;
+    border: solid 0px;
+   
+  }
+
+  .btnDelete:hover {
+  
+    width: 100%;
+    padding: 0px;
+    text-align: center;
+    color: white;
+    background-color:red;
+    border: solid 0px;
+   
+  }
+
+  .albumImg {
+    margin-bottom: -30px;
+    max-width: inherit;
+    max-height: inherit;
+    height: inherit;
+    width: inherit;
+    object-fit: cover;
+  }
+
+  btnActions{
+    align-items: center;
+  }
+  .btnActions button{
+    font: inherit;
+  background-color: black;
+  border: 1px solid white;
+  color: white;
+  font-weight: bold;
+  padding: 0.5rem 1.5rem;
+  border-radius: 2px;
+  cursor: pointer;
+  }

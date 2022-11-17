@@ -1,0 +1,143 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@800&display=swap');
+
+:root {
+
+  /* Colors: */
+  --grey: #9D9D9D;
+  --white: #FFFFFF;
+  --black: #000000;
+  --red: #EA4C5C;
+  
+  /* Font/text values */
+  --unnamed-font-family-lexend-deca: Lexend Deca;
+  --unnamed-font-style-normal: normal;
+  --unnamed-font-weight-800: 800px;
+  --unnamed-font-weight-normal: normal;
+  --unnamed-font-weight-bold: bold;
+  --unnamed-font-size-14: 14px;
+  --unnamed-font-size-16: 16px;
+  --unnamed-font-size-20: 20px;
+  --unnamed-font-size-32: 32px;
+  --unnamed-character-spacing-0: 0px;
+  --unnamed-character-spacing-0-32: 0.32px;
+  --unnamed-character-spacing-0-4: 0.4px;
+  --unnamed-character-spacing-0-64: 0.64px;
+  --unnamed-line-spacing-18: 18px;
+  --unnamed-line-spacing-20: 20px;
+  --unnamed-line-spacing-25: 25px;
+  --unnamed-line-spacing-40: 40px;
+  --unnamed-text-transform-uppercase: uppercase;
+  }
+  
+  /* Character Styles */
+  .title-dark- {
+  font-family: var(--unnamed-font-family-lexend-deca);
+  font-style: var(--unnamed-font-style-normal);
+  font-weight: var(--unnamed-font-weight-normal);
+  font-size: var(--unnamed-font-size-32);
+  line-height: var(--unnamed-line-spacing-40);
+  letter-spacing: var(--unnamed-character-spacing-0-64);
+  color: var(--black);
+  }
+  .date-dark- {
+  font-family: var(--unnamed-font-family-lexend-deca);
+  font-style: var(--unnamed-font-style-normal);
+  font-weight: var(--unnamed-font-weight-normal);
+  font-size: var(--unnamed-font-size-14);
+  line-height: var(--unnamed-line-spacing-18);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--grey);
+  }
+  .label-dark- {
+  font-family: var(--unnamed-font-family-lexend-deca);
+  font-style: var(--unnamed-font-style-normal);
+  font-weight: var(--unnamed-font-weight-bold);
+  font-size: var(--unnamed-font-size-14);
+  line-height: var(--unnamed-line-spacing-18);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--black);
+  }
+  .button-label-dark- {
+  font-family: var(--unnamed-font-family-lexend-deca);
+  font-style: var(--unnamed-font-style-normal);
+  font-weight: var(--unnamed-font-weight-800);
+  font-size: var(--unnamed-font-size-14);
+  line-height: var(--unnamed-line-spacing-18);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--black);
+  }
+  .button-label-light- {
+  font-family: var(--unnamed-font-family-lexend-deca);
+  font-style: var(--unnamed-font-style-normal);
+  font-weight: var(--unnamed-font-weight-800);
+  font-size: var(--unnamed-font-size-14);
+  line-height: var(--unnamed-line-spacing-18);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--white);
+  }
+  .add-image-dark- {
+  font-family: var(--unnamed-font-family-lexend-deca);
+  font-style: var(--unnamed-font-style-normal);
+  font-weight: var(--unnamed-font-weight-bold);
+  font-size: var(--unnamed-font-size-14);
+  line-height: var(--unnamed-line-spacing-18);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--black);
+  text-transform: var(--unnamed-text-transform-uppercase);
+  }
+  .add-album-name-dark- {
+  font-family: var(--unnamed-font-family-lexend-deca);
+  font-style: var(--unnamed-font-style-normal);
+  font-weight: var(--unnamed-font-weight-normal);
+  font-size: var(--unnamed-font-size-32);
+  line-height: var(--unnamed-line-spacing-40);
+  letter-spacing: var(--unnamed-character-spacing-0-64);
+  color: var(--grey);
+  }
+  .message-light- {
+  font-family: var(--unnamed-font-family-lexend-deca);
+  font-style: var(--unnamed-font-style-normal);
+  font-weight: var(--unnamed-font-weight-bold);
+  font-size: var(--unnamed-font-size-32);
+  line-height: var(--unnamed-line-spacing-40);
+  letter-spacing: var(--unnamed-character-spacing-0-64);
+  color: var(--white);
+  }
+  .album-list-item-inactive- {
+  font-family: var(--unnamed-font-family-lexend-deca);
+  font-style: var(--unnamed-font-style-normal);
+  font-weight: var(--unnamed-font-weight-normal);
+  font-size: var(--unnamed-font-size-20);
+  line-height: var(--unnamed-line-spacing-25);
+  letter-spacing: var(--unnamed-character-spacing-0-4);
+  color: var(--grey);
+  }
+  .album-list-item-active- {
+  font-family: var(--unnamed-font-family-lexend-deca);
+  font-style: var(--unnamed-font-style-normal);
+  font-weight: var(--unnamed-font-weight-normal);
+  font-size: var(--unnamed-font-size-20);
+  line-height: var(--unnamed-line-spacing-25);
+  letter-spacing: var(--unnamed-character-spacing-0-4);
+  color: var(--black);
+  }
+  .input-label-dark- {
+  font-family: var(--unnamed-font-family-lexend-deca);
+  font-style: var(--unnamed-font-style-normal);
+  font-weight: var(--unnamed-font-weight-800);
+  font-size: var(--unnamed-font-size-14);
+  line-height: var(--unnamed-line-spacing-18);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--black);
+  text-transform: var(--unnamed-text-transform-uppercase);
+  }
+  .input-text-inactive- {
+  font-family: var(--unnamed-font-family-lexend-deca);
+  font-style: var(--unnamed-font-style-normal);
+  font-weight: var(--unnamed-font-weight-normal);
+  font-size: var(--unnamed-font-size-16);
+  line-height: var(--unnamed-line-spacing-20);
+  letter-spacing: var(--unnamed-character-spacing-0-32);
+  color: var(--grey);
+  }

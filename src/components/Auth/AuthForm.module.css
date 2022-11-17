@@ -1,0 +1,82 @@
+.auth {
+  margin: 3rem auto;
+  width: 95%;
+  max-width: 25rem;
+  border-radius: 3px;
+  background-color: #ffffff;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  text-align: center;
+}
+
+.auth h1 {
+  text-align: center;
+  color: white;
+}
+
+.control {
+  margin-bottom: 0.5rem;
+}
+
+.control label {
+
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--black);
+text-align: center;
+font: normal normal 800 14px/18px Lexend Deca;
+letter-spacing: 0px;
+color: #000000;
+text-transform: uppercase;
+opacity: 1;
+}
+
+.control input {
+  /* Layout Properties */
+top: 308px;
+left: 797px;
+width: 327px;
+height: 48px;
+/* UI Properties */
+
+border: 2px solid var(--black);
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 2px solid #000000;
+opacity: 1;
+}
+
+.actions {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.actions button {
+  font: normal normal 800 14px/18px Lexend Deca;
+  background-color: #000000;
+  color: #ffffff;
+  text-decoration-color: #000000;
+
+}
+
+.actions button:hover {
+  
+  color: #000000;
+  background-color: #ffffff;
+  border-color: #000000;
+  
+}
+
+.actions .toggle {
+  margin-top: 1rem;
+  color: #000000;
+  background-color: #ffffff;
+  border-color: #000000;
+  padding: 0.15rem 1.5rem;
+}
+
+.actions .toggle:hover {
+  background-color: #000000;
+  color: #ffffff;
+  text-decoration-color: #FFFFFF;
+}

@@ -1,0 +1,91 @@
+.header {
+  height: 70px; 
+  opacity: 1;
+  float: center;
+  background: #000000 0% 0% no-repeat padding-box;
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+.li img {
+  width: 250px;
+  height: 80px;
+  float: center;
+}
+
+.logoItem {
+  margin: 0 400px !important;
+}
+
+.header ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: baseline;
+}
+
+.header li {
+  margin: 0 1rem;
+}
+
+.header a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+
+}
+
+.header button {
+
+  font: inherit;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  font-weight: bold;
+  padding: 0.5rem 1.5rem;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.header a:hover {
+  color: #ffffff;
+}
+
+.header button:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+
+.header li button {
+  /* Layout Properties */
+
+  /* UI Properties */
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-800) var(--unnamed-font-size-14)/var(--unnamed-line-spacing-18) var(--unnamed-font-family-lexend-deca);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--white);
+  text-align: center;
+  font: normal normal 800 14px/18px Lexend Deca;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+.albums button {
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--white);
+  text-align: center;
+  font: normal normal 800 14px/18px Lexend Deca;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+  align-self: flex-end;
+}

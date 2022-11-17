@@ -1,0 +1,60 @@
+body .artboard {
+  margin-top: 40px;
+  background-color: #ffffff;
+}
+.artboard {
+  background-image: url("img/Vector.png");
+  background-position-x: center;
+  background-position-y: bottom;
+  background-repeat: no-repeat;
+  opacity: 1;
+  background: var(--white) 0% 0% no-repeat padding-box;
+  background-color: rgb(255, 255, 255);
+  opacity: 1;
+}
+.textboard {
+  color: var(--black);
+  text-align: center;
+  letter-spacing: NaNpx;
+  color: #000000;
+  opacity: 1;
+}
+
+.artboard h1 {
+  font-family: Lexend Deca;
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-800)
+    44px/28px var(--unnamed-font-family-lexend-deca);
+  color: var(--black);
+  text-align: center;
+  font: normal normal 800 44px/28px Lexend Deca;
+  letter-spacing: -2.2px;
+  color: #000000;
+}
+
+.artboard p {
+  font: var(--unnamed-font-style-normal) normal
+    var(--unnamed-font-weight-normal) 22px/28px
+    var(--unnamed-font-family-lexend-deca);
+  color: var(--black);
+  text-align: center;
+  font: normal normal normal 22px/28px Lexend Deca;
+  letter-spacing: 0.44px;
+  color: #000000;
+}
+
+.footer {
+  background-color: black;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+}
+
+.imgFooter {
+  width: 320px;
+  height: 170px;
+  position: relative;
+  bottom: 70px;
+}
